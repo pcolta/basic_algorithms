@@ -1,5 +1,6 @@
 import random
 
+
 def get_number_from_input_or_default(given_number, default):
     if not given_number:
         print('wybrano domyślną wartość {}'.format(default))
